@@ -19,7 +19,7 @@ export default function TypeEffect({
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: any;
 
     const type = () => {
       const current = words[wordIndex];

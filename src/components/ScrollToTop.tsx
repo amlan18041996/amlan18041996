@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { ArrowUp } from 'lucide-react';
 import { useThemeStore, getThemeColors } from '../store/themeStore';
 
 function ScrollToTop() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = React.useState(false);
   const { currentTheme } = useThemeStore();
   const theme = getThemeColors(currentTheme);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
         setIsVisible(true);
