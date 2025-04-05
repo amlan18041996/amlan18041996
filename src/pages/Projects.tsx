@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import { getThemeColors, useThemeStore } from '../store/themeStore';
 

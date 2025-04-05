@@ -1,5 +1,4 @@
-import React from 'react';
-import { Code2, Database, Layout, Terminal, Cloud, Shield, Brain, Sparkles } from 'lucide-react';
+import { Database, Layout, Terminal, Cloud, Shield, Brain } from 'lucide-react';
 import { getThemeColors, useThemeStore } from '../store/themeStore';
 
 function Skills() {

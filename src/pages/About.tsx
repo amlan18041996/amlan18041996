@@ -1,4 +1,3 @@
-import React from 'react';
 import { Terminal, Globe, Cpu, Palette } from 'lucide-react';
 import cover_page from '../assets/story_cover_page.jpeg';
 

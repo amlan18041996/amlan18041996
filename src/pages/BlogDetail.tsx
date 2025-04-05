@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import React from 'react';
 import { Calendar, Clock, Share2, BookmarkPlus } from 'lucide-react';
 import { getThemeColors, useThemeStore } from '../store/themeStore';
 
 function BlogDetail() {
   const { currentTheme } = useThemeStore();
   const theme = getThemeColors(currentTheme);
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = React.useState('');
 
   // This would typically come from an API
   const blog = {
@@ -43,7 +42,7 @@ function BlogDetail() {
     { id: 'webassembly-evolution', title: '2. WebAssembly Evolution' }
   ];
 
-  useEffect(() => {
+  React.useEffect(() => {
     const handleScroll = () => {
       const headings = document.querySelectorAll('h2');
       const scrollPosition = window.scrollY + 100;

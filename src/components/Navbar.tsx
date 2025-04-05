@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router';
 import { 
   Code2, Grip, Home, User, Briefcase, BookOpen, 
-  Mail, Image, Settings, X, Palette, Languages, Sun, Moon, MessageSquare 
+  Mail, Image, Settings, X, Palette, Languages, MessageSquare 
 } from 'lucide-react';
 import { useThemeStore, getThemeColors } from '../store/themeStore';
 import CustomRadio from './CustomRadio';
 import ContactModal from './ContactModal';
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [showSettings, setShowSettings] = useState(false);
-  const [showContact, setShowContact] = useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
+  const [showSettings, setShowSettings] = React.useState(false);
+  const [showContact, setShowContact] = React.useState(false);
   const { currentTheme, setTheme } = useThemeStore();
   const theme = getThemeColors(currentTheme);
 
