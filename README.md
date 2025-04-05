@@ -1,7 +1,7 @@
 ## <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20"> Glad to see you here <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20">
 
-My name is ***Amlan Sengupta*** working as a **Full Stack Developer** with with over **7 years** of *experience* adept in working with providing 
-services for both Frontend & Backend technologies. Highly skilled in architectural flow, 
+My name is **_Amlan Sengupta_** working as a **Full Stack Developer** with with over **7 years** of _experience_ adept in working with providing
+services for both Frontend & Backend technologies. Highly skilled in architectural flow,
 desgining user-interfaces, building microservices and implementation of functional specifications.
 
 ## ⚡ Technologies
@@ -53,6 +53,4 @@ desgining user-interfaces, building microservices and implementation of function
 [![Linkedin Badge](https://img.shields.io/badge/-amlansengupta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amlansengupta1996/)](https://www.linkedin.com/in/amlansengupta1996/)
 [![Gmail Badge](https://img.shields.io/badge/-amlans3-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amlans3@gmail.com)](mailto:amlans3@gmail.com)
 
-
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=amlan18041996)
-
